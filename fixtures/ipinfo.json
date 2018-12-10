@@ -1,0 +1,98 @@
+{
+   "country":"Egypt",
+   "continent":"Africa",
+   "country_falg":"🇪🇬",
+   "CountryCode":"EG",
+   "City":"Cairo",
+   "Region":"Cairo Governorate",
+   "lat":30.0771,
+   "lng":31.2859,
+   "tz":"Africa/Cairo",
+   "isp":"Link Egypt",
+   "is_anonymous_proxy":false,
+   "is_satellite_provider":false,
+   "currency":[
+      "EGP"
+   ],
+   "country_details":{
+      "name":{
+         "common":"Egypt",
+         "official":"Arab Republic of Egypt",
+         "Native":{
+            "ara":{
+               "common":"مصر",
+               "official":"جمهورية مصر العربية"
+            }
+         }
+      },
+      "EuMember":false,
+      "LandLocked":false,
+      "Nationality":"",
+      "tld":[
+         ".eg",
+         ".مصر"
+      ],
+      "Languages":{
+         "ara":"Arabic"
+      },
+      "Translations":{
+         "DEU":{
+            "common":"Ägypten",
+            "official":"Arabische Republik Ägypten"
+         },
+         "FIN":{
+            "common":"Egypti",
+            "official":"Egyptin arabitasavalta"
+         },
+         "HRV":{
+            "common":"Egipat",
+            "official":"Arapska Republika Egipat"
+         },
+         "JPN":{
+            "common":"エジプト",
+            "official":"エジプト·アラブ共和国"
+         },
+         "NLD":{
+            "common":"Egypte",
+            "official":"Arabische Republiek Egypte"
+         },
+         "POR":{
+            "common":"Egito",
+            "official":"República Árabe do Egipto"
+         },
+         "RUS":{
+            "common":"Египет",
+            "official":"Арабская Республика Египет"
+         }
+      },
+      "currency":[
+         "EGP"
+      ],
+      "Borders":[
+         "ISR",
+         "LBY",
+         "SDN"
+      ],
+      "cca2":"EG",
+      "cca3":"EGY",
+      "CIOC":"EGY",
+      "CCN3":"818",
+      "callingCode":[
+         "20"
+      ],
+      "InternationalPrefix":"00",
+      "region":"Africa",
+      "subregion":"Northern Africa",
+      "Continent":"Africa",
+      "capital":"Cairo",
+      "Area":1002450,
+      "longitude":"30 00 E",
+      "latitude":"27 00 N",
+      "MinLongitude":24.7,
+      "MinLatitude":20.383333,
+      "MaxLongitude":36.333332,
+      "MaxLatitude":31.916668,
+      "Latitude":26.756104,
+      "Longitude":29.862297
+   }
+}
