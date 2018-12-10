@@ -16,19 +16,19 @@ Get ip info:
 package main
 
 import (
-	clearip "github.com/clearip/clearip-go"
+	currencystack "currencystack"
 	"fmt"
 )
 
 func main() {
 
-	clearipClient, err := clearip.NewClient("API Key HERE")
+	currencystackClient, err := currencystack.NewClient("API key here")
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 
-	response, err := clearipClient.IPRepo.GetAllDataByIP("IP HERE")
+	response, err := currencystackClient.CurrencyRepo.GetCurrenctConvertion("eur", []string{"Usd", "egp", "aed"})
 	if err != nil {
 		fmt.Println(err)
 		return
