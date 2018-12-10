@@ -5,7 +5,7 @@ golang client library for clear ip
 ## Installation
 
 ```bash
-go get -u github.com/clearip/clearip-go
+go get -u github.com/currencystack/currencystack-go
 ```
 
 ## usage
@@ -16,7 +16,7 @@ Get ip info:
 package main
 
 import (
-	currencystack "currencystack"
+	currencystack "github.com/currencystack/currencystack-go"
 	"fmt"
 )
 

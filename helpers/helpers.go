@@ -1,7 +1,7 @@
 package helpers
 
 import (
-	"currencystack/constants"
+	"currencystack-go/constants"
 )
 
 // Intersection - and array of strings with a map

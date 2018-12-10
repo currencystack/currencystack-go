@@ -1,7 +1,7 @@
 package currencystack
 
 import (
-	"currencystack/helpers"
+	"currencystack-go/helpers"
 	"encoding/json"
 	"fmt"
 	"strings"
