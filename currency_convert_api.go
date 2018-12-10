@@ -9,7 +9,7 @@ import (
 
 // CurrenyConvertionRepository holds the functions for dealing with ip info
 type CurrenyConvertionRepository interface {
-	GetCurrenctConvertion(base string, target []string) (CurrenyConvertion, error)
+	GetCurrencyConvertion(base string, target []string) (CurrenyConvertion, error)
 }
 
 // CurrenyConvertionAPI implements CurrenyConvertionRepository
@@ -17,8 +17,8 @@ type CurrenyConvertionAPI struct {
 	HTTP HTTPClient
 }
 
-// GetCurrenctConvertion get all the curreny convertions aginst targets ('list of currencies')
-func (c CurrenyConvertionAPI) GetCurrenctConvertion(base string, targets []string) (CurrenyConvertion, error) {
+// GetCurrencyConvertion get all the curreny convertions aginst targets ('list of currencies')
+func (c CurrenyConvertionAPI) GetCurrencyConvertion(base string, targets []string) (CurrenyConvertion, error) {
 	var CurrenyConvertion CurrenyConvertion
 
 	upperBase := strings.ToUpper(base)

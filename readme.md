@@ -1,4 +1,4 @@
-# clear ip golang library
+# clear ip golang library [![Build Status](https://travis-ci.com/currencystack/currencystack-go.svg?branch=master)](https://travis-ci.com/currencystack/currencystack-go)
 
 golang client library for clear ip
 
@@ -28,7 +28,7 @@ func main() {
 		return
 	}
 
-	response, err := currencystackClient.CurrencyRepo.GetCurrenctConvertion("eur", []string{"Usd", "egp", "aed"})
+	response, err := currencystackClient.CurrencyRepo.GetCurrencyConvertion("eur", []string{"Usd", "egp", "aed"})
 	if err != nil {
 		fmt.Println(err)
 		return

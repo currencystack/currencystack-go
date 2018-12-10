@@ -1,0 +1,11 @@
+{
+    "base": "EUR",
+    "last_update": "2018-12-10T17:20:57.617Z",
+    "rates": {
+        "AED": 4.174,
+        "EGP": 20.350,
+        "USD": 1.136
+    },
+    "status": 200,
+    "target": "USD,EGP,AED"
+}
