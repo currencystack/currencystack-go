@@ -1,7 +1,7 @@
 package helpers
 
 import (
-	"currencystack-go/constants"
+	"github.com/currencystack/currencystack-go/constants"
 )
 
 // Intersection - and array of strings with a map
@@ -28,6 +28,7 @@ func ValidatedCurrencies(currencyKeys []string) []string {
 	return Intersection(currencyKeys, constants.CurrencyKeysList)
 }
 
+// Map - map over an array
 func Map(vs []string, f func(string) string) []string {
 	vsm := make([]string, len(vs))
 	for i, v := range vs {

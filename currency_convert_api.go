@@ -1,10 +1,11 @@
 package currencystack
 
 import (
-	"currencystack-go/helpers"
 	"encoding/json"
 	"fmt"
 	"strings"
+
+	"github.com/currencystack/currencystack-go/helpers"
 )
 
 // CurrenyConvertionRepository holds the functions for dealing with ip info
