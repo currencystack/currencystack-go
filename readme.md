@@ -1,4 +1,4 @@
-# clear ip golang library [![Build Status](https://travis-ci.com/currencystack/currencystack-go.svg?branch=master)](https://travis-ci.com/currencystack/currencystack-go)
+# Currencystack.io golang library [![Build Status](https://travis-ci.com/currencystack/currencystack-go.svg?branch=master)](https://travis-ci.com/currencystack/currencystack-go)
 
 golang client library for currencystack.io 
 
